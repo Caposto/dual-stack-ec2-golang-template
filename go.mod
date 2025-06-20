@@ -1,4 +1,4 @@
-module dual-stack-ec2-golang-template
+module dualstack-vpc-golang-template
 
 go 1.18
 

@@ -1,5 +1,5 @@
 {
-  "app": "go mod download && go run dual-stack-ec2-golang-template.go",
+  "app": "go mod download && go run dualstack-vpc-golang-template.go",
   "watch": {
     "include": [
       "**"

@@ -7,11 +7,11 @@ import (
 	"github.com/aws/jsii-runtime-go"
 )
 
-type DualStackEc2GolangTemplateStackProps struct {
+type DualstackVpcGolangTemplateStackProps struct {
 	awscdk.StackProps
 }
 
-func NewDualStackEc2GolangTemplateStack(scope constructs.Construct, id string, props *DualStackEc2GolangTemplateStackProps) awscdk.Stack {
+func NewDualstackVpcGolangTemplateStack(scope constructs.Construct, id string, props *DualstackVpcGolangTemplateStackProps) awscdk.Stack {
 	var sprops awscdk.StackProps
 	if props != nil {
 		sprops = props.StackProps
@@ -21,7 +21,7 @@ func NewDualStackEc2GolangTemplateStack(scope constructs.Construct, id string, p
 	// The code that defines your stack goes here
 
 	// example resource
-	// queue := awssqs.NewQueue(stack, jsii.String("DualStackEc2GolangTemplateQueue"), &awssqs.QueueProps{
+	// queue := awssqs.NewQueue(stack, jsii.String("DualstackVpcGolangTemplateQueue"), &awssqs.QueueProps{
 	// 	VisibilityTimeout: awscdk.Duration_Seconds(jsii.Number(300)),
 	// })
 
@@ -33,7 +33,7 @@ func main() {
 
 	app := awscdk.NewApp(nil)
 
-	NewDualStackEc2GolangTemplateStack(app, "DualStackEc2GolangTemplateStack", &DualStackEc2GolangTemplateStackProps{
+	NewDualstackVpcGolangTemplateStack(app, "DualstackVpcGolangTemplateStack", &DualstackVpcGolangTemplateStackProps{
 		awscdk.StackProps{
 			Env: env(),
 		},

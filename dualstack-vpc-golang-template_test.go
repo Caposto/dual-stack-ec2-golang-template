@@ -9,13 +9,13 @@ package main
 // )
 
 // example tests. To run these tests, uncomment this file along with the
-// example resource in dual-stack-ec2-golang-template_test.go
-// func TestDualStackEc2GolangTemplateStack(t *testing.T) {
+// example resource in dualstack-vpc-golang-template_test.go
+// func TestDualstackVpcGolangTemplateStack(t *testing.T) {
 // 	// GIVEN
 // 	app := awscdk.NewApp(nil)
 
 // 	// WHEN
-// 	stack := NewDualStackEc2GolangTemplateStack(app, "MyStack", nil)
+// 	stack := NewDualstackVpcGolangTemplateStack(app, "MyStack", nil)
 
 // 	// THEN
 // 	template := assertions.Template_FromStack(stack, nil)
