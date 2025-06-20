@@ -8,4 +8,20 @@ With this code, a user should be able to fill in some infromation in a yaml file
 
 ## Getting Started
 
+### Prerequisites
+* Install and configure the AWS CDK CLI. [Docs](https://docs.aws.amazon.com/cdk/v2/guide/getting-started.html)
+
 ## Architecture
+
+# Welcome to your CDK Go project!
+
+This is a blank project for CDK development with Go.
+
+The `cdk.json` file tells the CDK toolkit how to execute your app.
+
+## Useful commands
+
+ * `cdk deploy`      deploy this stack to your default AWS account/region
+ * `cdk diff`        compare deployed stack with current state
+ * `cdk synth`       emits the synthesized CloudFormation template
+ * `go test`         run unit tests
