@@ -1,5 +1,7 @@
 package main
 
+// TODO: Can I test by launching an instance and than testing it for both IPv4 and IPv6?
+
 // import (
 // 	"testing"
 

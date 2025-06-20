@@ -13,6 +13,15 @@ With this code, a user should be able to fill in some infromation in a yaml file
 
 ## Architecture
 
+TODO: Diagram
+
+1. Create a VPC, giving it a name and CIDR block.
+2. Create an Internet Gateway and attach to VPC
+3. Create a public subnet, giving it a name and CIDR block.
+4. Create a Route Table and associate it with the public subnet.
+5. Create routes in Route Table
+6. Create a Security Group
+
 # Welcome to your CDK Go project!
 
 This is a blank project for CDK development with Go.
@@ -25,3 +34,6 @@ The `cdk.json` file tells the CDK toolkit how to execute your app.
  * `cdk diff`        compare deployed stack with current state
  * `cdk synth`       emits the synthesized CloudFormation template
  * `go test`         run unit tests
+
+## Resources
+
